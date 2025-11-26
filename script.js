@@ -2,6 +2,9 @@
     const form = document.getElementById("registration-form");
 
     const feedbackDiv = document.getElementById("form-feedback");
+    submitButton = document.getElementById("click");
+    const usernameInput = document.getElementById("username").value.trim();
+
 
     
     form.addEventListener("submit", function (event) {
