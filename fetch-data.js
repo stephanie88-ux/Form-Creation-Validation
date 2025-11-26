@@ -11,5 +11,16 @@ async function fetchUserData() {
 }
   dataContainer.innerHTML = 'Loading user data...';
 
+  const useList = document.createElement('ul');
+  user.forEach(user => {
+    const listItem = document.createElement('li');
+    listItem.textContent = `${user.name}`;
+    userList.dataContainer.appendChild(userList);
+  }
+
+  { catch (error) }
+    dataContainer.innerHTML = 'Failed to load user data.';
+
+
 
     
