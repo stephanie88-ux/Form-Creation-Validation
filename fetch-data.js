@@ -1,6 +1,6 @@
-async function fetchUserdata() {
+async function fetchUserData() {
 
-    const apiURL = 'https://jsonplaceholder.typicode.com/users';
+    const apiUrl= 'https://jsonplaceholder.typicode.com/users';
 }
 
         try {
